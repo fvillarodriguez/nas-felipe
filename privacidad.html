@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad | Respaldo NAS Felipe</title>
+<meta name="description" content="Información sobre una integración personal de copia de Google Drive a un NAS mediante rclone.">
+<style>body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65;max-width:820px;margin:48px auto;padding:0 24px;color:#222;background:#fff}h1{line-height:1.2}h2{font-size:1.2rem;margin-top:2rem}nav{margin-bottom:2rem}a{color:#174ea6}footer{border-top:1px solid #ddd;margin-top:2.5rem;padding-top:1rem;font-size:.9rem}code{overflow-wrap:anywhere}</style>
+</head>
+<body>
+<nav><a href="index.html">Inicio</a> · <a href="privacidad.html">Política de privacidad</a></nav>
+<main>
+<h1>Política de privacidad</h1>
+<p><strong>Aplicación:</strong> Respaldo NAS Felipe.</p>
+<p><strong>Responsable:</strong> Felipe, titular y administrador de esta integración de uso personal.</p>
+<h2>Datos a los que se accede y finalidad</h2>
+<p>La integración utiliza la API de Google Drive, previa autorización del titular, para consultar metadatos —por ejemplo, nombres, identificadores, tamaños y fechas de modificación— y descargar el contenido necesario para mantener una copia local de la carpeta configurada.</p>
+<p>Se utiliza el permiso de solo lectura <code>drive.readonly</code>. Aunque este permiso puede permitir el acceso a los archivos de Drive accesibles por la cuenta, la tarea de copia se configura para una carpeta seleccionada. La integración no modifica ni elimina archivos del Drive de origen.</p>
+<h2>Almacenamiento y acceso</h2>
+<p>Los archivos descargados se almacenan en el NAS administrado por el titular. El acceso a las copias depende de los permisos de las carpetas compartidas y de la configuración de la red del NAS. Las credenciales de rclone se guardan separadas de las carpetas públicas, en una ubicación de acceso restringido.</p>
+<p>Los registros de funcionamiento pueden contener nombres de archivos, rutas, fechas y mensajes de error, y se utilizan para supervisar la copia y resolver incidencias.</p>
+<h2>Uso y comunicación de los datos</h2>
+<p>Los datos de Google Drive se utilizan únicamente para realizar y administrar la copia personal. Esta integración no los vende, no los utiliza para publicidad y no los publica en este sitio web ni los envía a GitHub Pages.</p>
+<h2>Conservación y eliminación</h2>
+<p>Las copias se conservan en el NAS hasta que el titular las elimine manualmente. Borrar un archivo de Google Drive no elimina automáticamente su copia local. Actualizar un archivo puede reemplazar la versión local anterior.</p>
+<p>El titular puede detener la tarea programada y revocar el acceso de la aplicación desde su cuenta de Google. Revocar el acceso detiene las futuras consultas autorizadas, pero no elimina por sí solo los archivos ya descargados; estos deben eliminarse directamente del NAS.</p>
+<h2>Credenciales</h2>
+<p>El inicio de sesión y la autorización se realizan con Google. Este sitio informativo no solicita ni almacena contraseñas, tokens OAuth ni archivos de configuración de rclone.</p>
+<h2>Alojamiento de esta página</h2>
+<p>Esta página está prevista para alojarse en GitHub Pages. No incorpora formularios ni herramientas propias de analítica. GitHub puede registrar la dirección IP de los visitantes por motivos de seguridad; esto es independiente del contenido del respaldo de Drive.</p>
+<p>Información del proveedor: <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">recogida de datos en GitHub Pages</a>.</p>
+<h2>Contacto y cambios</h2>
+<p>Para consultas, utiliza el correo de asistencia indicado en la configuración de consentimiento OAuth de «Respaldo NAS Felipe» en Google. Esta política debe actualizarse si cambian el funcionamiento, los permisos o el tratamiento de datos de la integración.</p>
+</main>
+<footer>Integración personal administrada por Felipe. No es un servicio oficial de Google, Western Digital ni del proyecto rclone.</footer>
+</body>
+</html>
